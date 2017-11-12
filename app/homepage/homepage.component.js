@@ -14,7 +14,7 @@ var HomepageComponent = (function () {
 HomepageComponent = __decorate([
     core_1.Component({
         selector: 'homepage',
-        template: '<h1>Freelance Bootcamp Homepage</h1>'
+        template: '<h1>Homepage</h1>'
     })
 ], HomepageComponent);
 exports.HomepageComponent = HomepageComponent;
