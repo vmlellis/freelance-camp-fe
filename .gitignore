@@ -1,1 +1,5 @@
 /node_modules
+
+# Exclude tsc generated files
+/app/**/*.js
+/app/**/*.js.map
