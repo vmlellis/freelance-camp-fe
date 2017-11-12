@@ -1,0 +1,7 @@
+.proposal-link .proposal-heading {
+  font-weight: bold;
+}
+
+.proposal-link:hover {
+  text-decoration: none;
+}
