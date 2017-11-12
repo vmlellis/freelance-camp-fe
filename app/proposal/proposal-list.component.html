@@ -3,7 +3,7 @@
     <a class="list-group-item list-group-item-action active flex-column">
       <h1 class="headline">Proposal List</h1>
     </a>
-    <a *ngFor="let proposal of proposals" class="list-group-item list-group-item-action flex-column proposal-link" routerLink="/proposals/{{proposal.id}}">
+    <a *ngFor="let proposal of proposals" class="list-group-item list-group-item-action flex-column proposal-link" (click)="goToShow(proposal)">
       <div class="d-flex w-100 justify-content-between">
         <h5 class="mb-1 proposal-heading">{{proposal.customer}}</h5>
       </div>
