@@ -26,7 +26,7 @@ export class ProposalService {
     let headers = new Headers({ 'Content-Type': 'application/json' });
     let options = new RequestOptions({ headers: headers });
     return this.http.post(this.proposalsUrl, JSON.stringify(proposal), options)
-                    .map((res: Reponse) => res.json());
+                    .map((res: Response) => res.json());
   }
 
   private handleError (error: Response | any) {
